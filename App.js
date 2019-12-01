@@ -18,7 +18,7 @@ import {
 
 import {
   Header,
-  Colors,
+  Colors, 
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
