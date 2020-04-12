@@ -9,13 +9,10 @@
 import Foundation
 
 // CounterViewManager.swift
-@objc(CounterViewManager)
-class CounterViewManager: RCTViewManager {
+@objc(MyViewManager)
+class MyViewManager : RCTViewManager {
   override func view() -> UIView! {
-    let label = UILabel()
-    label.text = "Swift Counter"
-    label.textAlignment = .center
-    return label
+    return CounterView()
   }
   override static func requiresMainQueueSetup() -> Bool {
     return true
